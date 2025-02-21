@@ -6,6 +6,7 @@ __pycache__/
 
 # Ignore the virtual environment directory
 venv/
+.env/
 
 # Ignore CSV report files (you can re-generate them)
 *.csv
@@ -14,7 +15,16 @@ shift_report.csv
 # Ignore IDE files (if using editors like VSCode or PyCharm)
 .vscode/
 .idea/
+*.iml
 
 # Ignore system files (for macOS, Windows, etc.)
 .DS_Store
 Thumbs.db
+
+# PyInstaller
+/dist
+/build
+*.spec
+
+# Logs
+*.log
